@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
   getTabInfo(function(tab) {
     stored_title = tab.title;
     stored_url = tab.url;
-    cleaned_url = stored_url.replace(/[\s\:\?\/\=\#\-]/g, '');
+    // cleaned_url = stored_url.replace(/[\s\:\?\/\=\#\-]/g, '');
+    cleaned_url = stored_url.match(/^(?:https?:\/\/)?(?:[^@\/\n]+@)?(?:www\.)?([^:\/?\n]+)/img);
 
     // gets note
     background.getNote(cleaned_url);
