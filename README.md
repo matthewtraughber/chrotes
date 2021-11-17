@@ -5,7 +5,7 @@ Chrotes *(chrome notes portmanteau, how original /s)* was created after losing d
 
 Chrotes saves data to chrome.storage.sync, which means it will sync across devices. Each chrote is unique to a page/URL. To view & edit the chrote, click the extension button while on the desired page.
 
-![alt text](http://i.imgur.com/p8oDolv.png "Chrotes")
+![alt text](img/chrotes.png)
 
 ## Setup
 Grab it from the chrome web store [here](https://chrome.google.com/webstore/detail/hjnigjnmlkbcddglknmlgdinojibnacf).
